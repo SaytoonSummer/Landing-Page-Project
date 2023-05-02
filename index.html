@@ -9,28 +9,38 @@
     <link rel="stylesheet" href="src/css/reset.css">
     <!-- Enlace al archivo de estilo materialize.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Enlace al archivo a mystyle.css -->
+    <link rel="stylesheet" href="src/css/mystyle.css">
     <!-- Enlace al archivo de js materialize.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>        
 </head>
 <body>
     <!-- Barra de navegación -->
-    <nav>
-        <ul>
-          <li><a href="#seccion1">Sección 1</a></li>
-          <li><a href="#seccion2">Sección 2</a></li>
-          <li><a href="#seccion3">Sección 3</a></li>
-          <li><a href="#seccion4">Sección 4</a></li>
-          <li><a href="#seccion5">Sección 5</a></li>
-        </ul>
-      </nav>
+    <nav class="nav-wrapper" style="background-color: #C0803A; height: 80px; z-index: 9999; width: 100%;">
+      <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
+        <div class="logo" style="display: flex; align-items: center;">
+          <div class="logo-text" style="background-color: #ffffff; height: 80px; display: flex; justify-content: center; align-items: center; position: absolute; left: 0; width: 40%;">
+            <img src="https://img.icons8.com/ios-filled/50/000000/tea.png" style="width: 30px; margin-right: 10px; position: relative; z-index: 1;" />
+            <h5 style="font-family: 'Montserrat', sans-serif; font-size: 36px; margin: 0;">
+              <span style="color: #5B5B5B;">Newen</span><span style="color: #eaa45a;">repu</span>
+            </h5>
+          </div>
+        </div>
+        <div class="nav-items" style="display: flex; align-items: center;">
+          <ul>
+            <li><a href="#nosotros" style="color: #FFFFFF; font-weight: bold; font-size: 20px;">Nosotros</a></li>
+            <li><a href="#catalogo" style="color: #FFFFFF; font-weight: bold; font-size: 20px;">Catálogo</a></li>
+            <li><a href="#contacto" style="color: #FFFFFF; font-weight: bold; font-size: 20px;">Contacto</a></li>
+            <li><a href="#clientes" style="color: #FFFFFF; font-weight: bold; font-size: 20px;">Clientes</a></li>
+            <li><a href="#testimonios" style="color: #FFFFFF; font-weight: bold; font-size: 20px;">Testimonios</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
       <!-- Sección Main -->
-      <section id="seccion1">
-        <!-- Contenido de la sección 1 -->
-        <img src="src/img/Imagén Newenrepu.png" alt="">
-        <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia exercitationem architecto dolore, quae quasi consequuntur facilis, optio esse at eum, ducimus similique. Libero tempora fugiat voluptatibus non fuga sunt possimus?
-        </p>
-      </section>
+      <section id="seccionmain">
+        <!-- Contenido de la sección main -->
+
       <!-- Sección 1 -->
       <section id="seccion1">
         <!-- Contenido de la sección 1 -->
@@ -42,7 +52,7 @@
       <!-- Sección 2 -->
       <section id="seccion2">
         <!-- Contenido de la sección 2 -->
-        <h1>Catálgo</h1>
+        <h1>Catálogo</h1>
         <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia exercitationem architecto dolore, quae quasi consequuntur facilis, optio esse at eum, ducimus similique. Libero tempora fugiat voluptatibus non fuga sunt possimus?
         </p>
